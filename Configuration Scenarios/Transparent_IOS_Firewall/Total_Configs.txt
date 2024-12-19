@@ -1,0 +1,446 @@
+PCs:
+
+# This the configuration for PC1
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.100 255.255.255.0 192.168.13.1
+#
+
+set pcname PC1
+
+
+
+# This the configuration for PC2
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.101 255.255.255.0 192.168.13.1
+#
+
+set pcname PC2
+
+
+
+# This the configuration for PC3
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.102 255.255.255.0 192.168.13.1
+#
+
+set pcname PC3
+
+
+
+# This the configuration for PC4
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.103 255.255.255.0 192.168.13.1
+#
+
+set pcname PC4
+
+
+
+# This the configuration for PC5
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.104 255.255.255.0 192.168.13.1
+
+set pcname PC5
+
+
+
+# This the configuration for PC6
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.106 255.255.255.0 192.168.13.1
+#
+
+set pcname PC6
+
+
+
+# This the configuration for PC7
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.111 255.255.255.0 192.168.13.1
+#
+
+set pcname PC7
+
+
+# This the configuration for PC8
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.112 255.255.255.0 192.168.13.1
+#
+
+set pcname PC8
+
+
+# This the configuration for PC9
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.113 255.255.255.0 192.168.13.1
+#
+
+set pcname PC9
+
+
+
+# This the configuration for PC10
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.110 255.255.255.0 192.168.13.1
+#
+
+set pcname PC10
+
+
+
+# This the configuration for PC11
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.115 255.255.255.0 192.168.13.1
+#
+
+set pcname PC11
+
+
+# This the configuration for PC12
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.13.114 255.255.255.0 192.168.13.1
+#
+
+set pcname PC12
+
+
+Routers:
+
+// Harbor Configurations
+!
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Harbor
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+archive
+log config
+hidekeys
+! 
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ip address 192.168.13.1 255.255.255.0
+duplex auto
+speed auto
+!
+interface FastEthernet0/1
+no ip address
+shutdown
+duplex auto
+speed auto
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+exec-timeout 0 0
+logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end
+
+
+
+
+// Haven Configurations
+!
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Haven
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+archive
+log config
+hidekeys
+! 
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+no ip address
+duplex auto
+speed auto
+!
+interface FastEthernet0/1
+no ip address
+duplex auto
+speed auto
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+exec-timeout 0 0
+logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end
+
+
+
+// Terminal Configuration
+!
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Terminal
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+archive
+log config
+hidekeys
+! 
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ip address 192.168.13.3 255.255.255.0
+duplex auto
+speed auto
+!
+interface FastEthernet0/1
+no ip address
+shutdown
+duplex auto
+speed auto
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+exec-timeout 0 0
+logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end

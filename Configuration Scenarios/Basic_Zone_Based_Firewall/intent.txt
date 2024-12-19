@@ -1,0 +1,9 @@
+Implement Zone Based Firewall on a router
+Create 2 security zones called “LAN” and “INTERNET” on router FIREWALL.
+Place the corresponding interfaces into the correct zones.
+Create the correct class-map, policy-map and zone-pair so traffic from LAN to INTERNET is
+allowed, including the return traffic.
+Traffic from INTERNET to LAN should be blocked.
+Increase security by only allowing HTTP, ICMP and HTTPS traffic from LAN to INTERNET.
+Test this by using telnet from router LAN to router INTERNET, this should be blocked.
+
