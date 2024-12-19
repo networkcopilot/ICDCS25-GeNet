@@ -1,0 +1,1 @@
+The headquarters wishes to facilitate smoother internal communications and enhance external network services by adding communication servers (Web Server, DNS Server) to our network. Please enhance my current network as presented.

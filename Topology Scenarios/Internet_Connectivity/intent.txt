@@ -1,0 +1,1 @@
+The headquarters decided to connect all the department’s local network to the Internet. Please create this connectivity on my current network
