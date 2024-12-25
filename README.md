@@ -2,6 +2,9 @@
 
 GeNet is a multimodal co-pilot framework designed to simplify and automate network engineering workflows. By leveraging large language models (LLMs) and integrating both textual and visual data, GeNet enables enterprise network engineers to design, interpret, and modify network topologies and device configurations based on user intents.
 
+---
+
+
 ### Key Features
 - **Topology Understanding:** Automatically interprets network topology images (including low-quality handwritten diagrams) into textual representations.
 - **Intent Implementation:** Modifies network configurations and topologies to align with user intents using a large language model.
@@ -31,3 +34,47 @@ Managing network topologies in enterprise environments is complex, error-prone, 
 - High accuracy in interpreting network topology images, achieving strong agreement with human evaluations.
 - Processes intents with an average response time of 81 seconds.
 - Supports complex tasks while maintaining reliability, even with incomplete or low-quality input specifications.
+
+
+---
+
+
+## Dataset 
+The dataset is splitted into 2 main directory - **Topology based Scenarios** and **Configuration Based Scenarios**.
+
+#### The Topology based scenarios:
+- Adding Communication Servers (E)
+- Adding DMZ (M)
+- Adding DRA (H)
+- Adding Local PCs (E)
+- Internet Connectivity (M)
+
+#### The Configuration base scenarios:
+- Basic Zone Based Firewall (H)
+- IP Traffic Export (M)
+- Role Based CLI Access (E)
+- Time Based Access List (E)
+- Transparent IOS Firewall (M)
+
+(scenarios divided into scenario types and complexity levels where (E) marks Easy, (M) marks Medium, and (H) marks Hard, based on expert survey)
+
+### Dataset Directory Structure
+Each directory consist of 3 folders:
+1. **Input Files** - The input files consist a directory per scenario which consist of intent textual file and configuration textual file
+2. **Scoring Keys** - The scoring keys for each scenario for measuring the level of success in implementing the intent
+3. **Topology Image Variance** - The dataset for the Topology Understanding Module
+
+The Topology Image Variance directory architecture:
+ - Topology_image_variance
+   - {visualization_format}
+     - {diagram_type}
+        - {scenario_name}
+          - {scenario_name}.jpg (the diagram image)
+          - GNS3 file or Powerpoint slide of the diagram (according to the visualization format)
+
+
+Visualization_formats : [GNS3, Paper_Sketches, PowerPoint]
+
+Diagram_type: [Messy_Layout, No_Labels_On_Edges, Normal]
+
+
