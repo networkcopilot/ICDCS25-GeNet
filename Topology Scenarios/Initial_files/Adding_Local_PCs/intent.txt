@@ -1,0 +1,1 @@
+The headquarters requested adding three PCs in department 2. All ports in the respective switch are occupied but there communication rack in department 2 has more space.
