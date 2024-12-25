@@ -1,0 +1,5 @@
+1. No switches were added to the updated topology – 20 points
+2. At least one switch was added to the updated topology, but wasn't configured in the updated configuration file– 10 points
+3. No router or firewall was added to the updated topology – 35 points
+4. A router or firewall was added to the updated topology, but wasn't configured in the updated configuration file – 10 points
+5. No servers were added to the updated topology – 20 points

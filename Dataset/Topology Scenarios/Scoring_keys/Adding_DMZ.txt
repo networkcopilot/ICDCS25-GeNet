@@ -1,0 +1,10 @@
+1. The DMZ in the updated topology does not include the Web-Server in it, or the Web-Server was connected incorrectly – 10 points
+2. The DMZ in the updated topology does not include a DNS Server in it, or the DNS Server was connected incorrectly – 10 points 
+3. No switch was added to the updated topology – 20 points
+4. The added switch wasn't configured in the updated configuration file – 10 points
+5. In the updated configuration file, the Access Control List (ACL) wasn't configured correctly in the Firewall -10 points
+6. In the updated configuration file, services that should pass from the DMZ into the internal network were not configured in the added switch or in the Firewall – 15 points
+7. In the updated configuration file, a new interface (dedicated to the DMZ) wasn't defined in the Firewall – 10 points
+8. In the updated configuration file, the last firewall rule is not a drop action – 5 points 
+9. In the updated configuration file, the firewall wasn't reconfigured with the interface that corresponds to the DMZ and the servers that moved to the DMZ - 5 points
+10. Bad command syntax in the updated configuration – 5 points
