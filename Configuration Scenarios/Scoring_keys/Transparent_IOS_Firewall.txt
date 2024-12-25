@@ -1,0 +1,9 @@
+1. 'bridge irb' wasn't defined – 6 points
+2. 'bridge 1 protocol ieee' wasn't defined - 14 points
+3. 'inspect tcp packets' wasn't defined (e.g., ip inspect name Firewall tcp) – 3 points
+4. Wrong source or destination IPs are defined in the ACL - 10 points
+5. ACL was defined only from source to destination and not vice-versa - 10 points
+6. Didn't disable IPv6 communication between Harbor and Terminal routers- 6 points
+7. An inspect rule wasn't added to interface FE0/0 of Haven router – 5 points
+8. The ACL wasn't configured correctly for the interfaces – 10 points
+9. The bridge group was defined with the wrong input-type-list (The input type list should contain the disable IPv6 ACL) – 5 points

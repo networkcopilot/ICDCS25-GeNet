@@ -1,0 +1,478 @@
+PC1 Configurations:
+
+// PC1
+
+# This the configuration for PC1
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.1.2 255.255.255.0
+#
+
+set pcname PC1
+
+// PC2
+
+# This the configuration for PC2
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.1.3 255.255.255.0
+#
+
+set pcname PC2
+
+
+// PC3
+
+# This the configuration for PC3
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.1.4 255.255.255.0
+#
+
+set pcname PC3
+
+
+// PC4
+
+
+# This the configuration for PC4
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.1.5 255.255.255.0
+#
+
+set pcname PC4
+
+
+// PC5
+
+# This the configuration for PC5
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.2.2 255.255.255.0
+#
+set pcname PC5
+
+
+// PC6
+
+# This the configuration for PC6
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.2.3 255.255.255.0
+#
+set pcname PC6
+
+
+// PC7
+
+# This the configuration for PC7
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.3.2 255.255.255.0
+#
+set pcname PC7
+
+
+// PC8
+
+# This the configuration for PC8
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.3.3 255.255.255.0
+#
+
+set pcname PC8
+
+
+// PC9
+
+# This the configuration for PC9
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.3.4 255.255.255.0
+#
+
+set pcname PC9
+
+
+// PC10
+
+# This the configuration for PC10
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.3.5 255.255.255.0
+#
+set pcname PC10
+
+// PC11
+
+# This the configuration for PC11
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+ip 192.168.4.2 255.255.255.0
+#
+set pcname PC11
+
+Routers:
+
+// IDS
+
+
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname IDS
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+!
+!
+ip cef
+no ip domain lookup
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.24.4 255.255.255.0
+ duplex auto
+ speed auto
+!
+router eigrp 1
+ network 0.0.0.0
+ no auto-summary
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end
+
+// Router Ditto
+
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Ditto
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+!
+!
+ip cef
+no ip domain lookup
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.12.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/0
+ ip address 192.168.23.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/0
+ ip address 192.168.24.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+router eigrp 1
+ network 0.0.0.0
+ no auto-summary
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end
+
+// Router Forge
+
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Forge
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+!
+!
+ip cef
+no ip domain lookup
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.23.3 255.255.255.0
+ duplex auto
+ speed auto
+!
+router eigrp 1
+ network 0.0.0.0
+ no auto-summary
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end
+
+// Router Repo
+
+!
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Repo
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+memory-size iomem 5
+!
+!
+ip cef
+no ip domain lookup
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.12.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+router eigrp 1
+ network 0.0.0.0
+ no auto-summary
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+!
+!
+end

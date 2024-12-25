@@ -1,0 +1,4 @@
+1. Periodic weekdays weren't defined to: 09:00-17:00 on router Tube– 3 points
+2. Access list is not applied to the correct IPs – 5 points
+3. Access-list is not applied to the correct interfaces – 5 points
+4. Time-based access list was also defined on router 'Stem' rather than only on router 'Tube' – 20 points
