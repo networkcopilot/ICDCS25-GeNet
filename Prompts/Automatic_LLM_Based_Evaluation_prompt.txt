@@ -1,0 +1,6 @@
+##For multiple output files of the "Intent Implementation Assistant":
+Hello Networking Intent Implementation Evaluator, I added here {file_number} files: '{input_configuration_file_name}' which is the initial network component configuration file, '{input_textual_topology_name}' which is the initial topology description, an intent file named 'intent.txt', and {len(files)} updated files which shows the changes after intent implementation named {files_names}. Here are the scoring keys for your evaluation: {scoring_keys} Given the these files, and the scoring keys, assign a grade to the intent implementation according to your instructions, and briefly explain your scoring for each key.
+
+
+##For one output file of the "Intent Implementation Assistant":
+Hello Networking Intent Implementation Evaluator, I added here {file_number} files: '{input_configuration_file_name}' which is the initial network component configuration file, '{input_textual_topology_name}' which is the initial topology description, an intent file named 'intent.txt', and an updated file which shows the changes after intent implementation named {updated_files[0][0]}. Here are the scoring keys for your evaluation: {scoring_keys} Given the these files, and the scoring keys, assign a grade to the intent implementation according to your instructions, and briefly explain your scoring for each key.
