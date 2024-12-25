@@ -1,1 +1,0 @@
-Company headquarters has decided to enhance system security by creating a DMZ for external-facing applications and services. Please enhance my current network as presented.
