@@ -1,0 +1,7 @@
+Scenario Summary: Convert a spare router into a transparent firewall.
+
+Goal Summary:
+- Configure router Haven as a transparent firewall using the bridge function.
+- Use network 192.168.13.0 /24 so router Harbor and Terminal are in the same subnet.
+- Ensure router Harbor can reach router Terminal by using TELNET or HTTP, all other traffic should be dropped.
+- Ensure router Harbor and Terminal are unable to communicate using IPv6.

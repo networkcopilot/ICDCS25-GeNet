@@ -1,0 +1,4 @@
+Scoring keys:
+1. More/less than two zones were defined – 20 points
+2. Interfaces were not correctly assigned to the zones – 3 points
+3. Wrong interface port number used – 10 points
