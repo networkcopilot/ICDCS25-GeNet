@@ -1,3 +1,0 @@
-Export EIGRP and HTTP traffic from router Ditto to router IDS.  
-- Configure router Ditto so all EIGRP and HTTP traffic from routers Repo and Forge is exported to router IDS.
-

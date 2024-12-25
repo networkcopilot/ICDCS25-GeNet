@@ -1,6 +1,0 @@
-1. The next hop of router Ditto wasn't set (but the route map was) – 5 points
-2. Some of the interfaces were defined wrong or not at all – 10 points
-3. The ACL or inspect rule wasn't configured correctly for the interfaces of the router, to allow EIGRP and HTTP traffic to be exported into the IDS  – 10 points
-4. A Route-map was defined in the updated configuration file, but wasn't correctly applied to the corresponding interfaces – 10 points
-5. Unnecessary traffic types in the Access Control List (ACL) were added – 5 points
-6. The wrong router was configured – 10 points

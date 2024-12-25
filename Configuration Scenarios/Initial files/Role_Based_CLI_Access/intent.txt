@@ -1,8 +1,0 @@
-limit privilege levels on routers
-- Configure a role called “TRAINEE” on router Rollin. 
-- Role “TRAINEE” should be able to change the IP address on loopback0. 
-- Configure a role called “DEBUG” on router Rollin. 
-- Role “DEBUG” should be able to use all debug commands. 
-- Configure a role called “ALLMIGHTY” on router Rollin. 
-- Role “ALLMIGHTY” should be able to do whatever role “TRAINEE” and ”DEBUG” can do. 
-- To authenticate the roles, use password “VAULT”.

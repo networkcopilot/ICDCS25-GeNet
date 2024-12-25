@@ -1,8 +1,0 @@
-1. The commands:'aaa new-model' and 'aaa session-id common' were not applied – 10 points
-2. The commands: 'aaa new-model' and 'aaa session-id common' were added but with bad syntax – 5 points
-3. The password wasn't set to 'VAULT' – 10 points
-4. The password was correctly defined but with bad syntax – 5 points
-5. The role "TRAINEE" didn't get permission to change the IP address on loopback0 - 20 points
-6. The role "DEBUG" didn't get the permission to use all debug commands - 20 points
-7. The role "ALMIGHTY" didn't get the permissions of roles "DUBUG" and "TRAINEE" - 20 points
-8. The permissions were correctly assigned but with bad syntax – 10 points
