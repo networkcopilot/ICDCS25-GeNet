@@ -1,3 +1,0 @@
-1. No router was added to the updated topology file – 20 points
-2. A router was added to the topology, but it or its interfaces were not properly configured in the updated configuration file - 10 points
-3. A router was added to the topology, but it's IP wasn't configured ingress/outgress in the updated configuration file – 5 points

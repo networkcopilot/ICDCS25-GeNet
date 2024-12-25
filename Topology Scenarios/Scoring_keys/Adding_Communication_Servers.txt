@@ -1,4 +1,0 @@
-1. In the updated configuration file, the IP default gateway wasn't configured in the added DNS and Web servers – 10 points
-2. The IP default gateway was configured in the added DNS and Web servers, but the IP default gateway command is incomplete – 4 points
-3. DNS and HTTP services weren't enabled in the updated configuration file – 20 points
-4. A command to enable DNS and HTTP services was added to the updated configuration file, but the syntax of the protocols in the command was incorrect – 4 points

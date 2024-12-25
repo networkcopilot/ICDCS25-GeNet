@@ -1,4 +1,0 @@
-1. No switch was added to the updated topology file – 20 points
-2. Three PCs weren't added to the updated topology file– 10 points per PC
-3. The added PCs' IP wasn't configured with the continuous subnet mask as the other PCs in department 2 – 3 points
-4. A new switch was added to the updated topology file but wasn't configured in the updated configuration file - 15 points
