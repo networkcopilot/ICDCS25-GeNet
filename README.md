@@ -78,3 +78,8 @@ Visualization_formats : [GNS3, Paper_Sketches, PowerPoint]
 Diagram_type: [Messy_Layout, No_Labels_On_Edges, Normal]
 
 
+---
+
+## License
+
+This project is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
