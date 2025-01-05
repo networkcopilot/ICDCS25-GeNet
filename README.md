@@ -60,9 +60,10 @@ The dataset is splitted into 2 main directory - **Topology based Scenarios** and
 
 ### Dataset Directory Structure
 Each directory consist of 3 folders:
-1. **Input Files** - The input files consist a directory per scenario which consist of intent textual file and configuration textual file
+1. **Initial Files** - The initial files consist a directory per scenario which consist of the input intent textual file and configuration textual file
 2. **Scoring Keys** - The scoring keys for each scenario for measuring the level of success in implementing the intent
 3. **Topology Image Variants** - The dataset for the Topology Understanding Module
+4. **Topologies Ground Truth Representations** - The structured representations of the topologies per scenario which are used as a ground truth for the Topology Understanding part
 
 The Topology Image Variants directory architecture:
  - Topology_image_variants
