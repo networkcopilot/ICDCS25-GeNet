@@ -1,7 +1,7 @@
 {
     "nodes": [
         {
-            "label": "NAT1",
+            "label": "NAT",
             "icon": "cloud"
         },
         {
