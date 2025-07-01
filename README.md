@@ -1,6 +1,6 @@
 # GeNet Framework Repository
 
-GeNet is a multimodal co-pilot framework designed to simplify and automate network engineering workflows. By leveraging large language models (LLMs) and integrating both textual and visual data, GeNet enables enterprise network engineers to design, interpret, and modify network topologies and device configurations based on user intents.
+GeNet is a multimodal co-pilot framework designed to simplify and automate network engineering workflows described in our paper: [GeNet a Multimodal LLM Based Co Pilot for Network Topology and Configuration ICDCS Short](https://github.com/networkcopilot/GeNet-Framewok/blob/main/GeNet%20a%20Multimodal%20LLM%20Based%20Co%20Pilot%20for%20Network%20Topology%20and%20Configuration%20ICDCS%20Short.pdf) (DOI 10.1109/ICDCSW63273.2025.00026). By leveraging large language models (LLMs) and integrating both textual and visual data, GeNet enables enterprise network engineers to design, interpret, and modify network topologies and device configurations based on user intents.
 
 ---
 
