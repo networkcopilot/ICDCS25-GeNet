@@ -80,7 +80,9 @@ Diagram_type: [Messy_Layout, No_Labels_On_Edges, Normal]
 
 ---
 ## Citing our paper
+
 If you use or find GeNet valuable please cite our paper:
+
 @article{ifland2024genet,
   title={Genet: A multimodal llm-based co-pilot for network topology and configuration},
   author={Ifland, Beni and Duani, Elad and Krief, Rubin and Ohana, Miro and Zilberman, Aviram and Murillo, Andres and Manor, Ofir and Lavi, Ortal and Kenji, Hikichi and Shabtai, Asaf and others},
