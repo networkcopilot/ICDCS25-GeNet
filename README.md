@@ -80,7 +80,7 @@ Diagram_type: [Messy_Layout, No_Labels_On_Edges, Normal]
 
 ---
 ## Citing our paper
-
+[GeNet a Multimodal LLM Based Co Pilot for Network Topology and Configuration ICDCS Short](https://github.com/networkcopilot/GeNet-Framewok/blob/main/GeNet%20a%20Multimodal%20LLM%20Based%20Co%20Pilot%20for%20Network%20Topology%20and%20Configuration%20ICDCS%20Short.pdf)
 If you use or find GeNet valuable please cite our paper:
 
 @article{ifland2024genet,
