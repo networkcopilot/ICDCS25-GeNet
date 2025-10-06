@@ -1,0 +1,108 @@
+{
+    "nodes": [
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "PC7",
+            "icon": ""
+        },
+        {
+            "label": "PC8",
+            "icon": ""
+        },
+        {
+            "label": "PC9",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "PC1",
+            "Switch1",
+            "e0",
+            "e1"
+        ],
+        [
+            "PC2",
+            "Switch1",
+            "e0",
+            "e2"
+        ],
+        [
+            "PC3",
+            "Switch1",
+            "e0",
+            "e3"
+        ],
+        [
+            "PC4",
+            "Switch1",
+            "e0",
+            "e4"
+        ],
+        [
+            "Switch2",
+            "PC5",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "PC6",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "PC7",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "PC8",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "PC9",
+            "e3",
+            "e0"
+        ]
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "nodes": [
+        {
+            "label": "ADServer",
+            "icon": ""
+        },
+        {
+            "label": "DnsServer",
+            "icon": ""
+        },
+        {
+            "label": "ExternalInternet",
+            "icon": ""
+        },
+        {
+            "label": "Firewall",
+            "icon": ""
+        },
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "PC7",
+            "icon": ""
+        },
+        {
+            "label": "PC8",
+            "icon": ""
+        },
+        {
+            "label": "ProxyServer",
+            "icon": ""
+        },
+        {
+            "label": "R1",
+            "icon": ""
+        },
+        {
+            "label": "R2",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        },
+        {
+            "label": "Switch4",
+            "icon": ""
+        },
+        {
+            "label": "WebServer",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "R1",
+            "Switch1",
+            "f0/0",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC1",
+            "e1",
+            "e0"
+        ],
+        [
+            "R1",
+            "Switch2",
+            "f0/1",
+            "e0"
+        ],
+        [
+            "Firewall",
+            "R1",
+            "f0/0",
+            "f1/0"
+        ],
+        [
+            "Firewall",
+            "R2",
+            "f0/1",
+            "f0/0"
+        ],
+        [
+            "PC2",
+            "Switch1",
+            "e0",
+            "e2"
+        ],
+        [
+            "Switch1",
+            "PC3",
+            "e4",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC4",
+            "e3",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC5",
+            "e5",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "WebServer",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "DnsServer",
+            "e2",
+            "e0"
+        ],
+        [
+            "R2",
+            "Switch3",
+            "f0/1",
+            "e0"
+        ],
+        [
+            "PC6",
+            "Switch3",
+            "e0",
+            "e1"
+        ],
+        [
+            "PC7",
+            "Switch3",
+            "e0",
+            "e2"
+        ],
+        [
+            "PC8",
+            "Switch3",
+            "e0",
+            "e3"
+        ],
+        [
+            "Switch4",
+            "R2",
+            "e0",
+            "f1/0"
+        ],
+        [
+            "ProxyServer",
+            "Switch4",
+            "e0",
+            "e1"
+        ],
+        [
+            "ADServer",
+            "Switch4",
+            "e0",
+            "e2"
+        ],
+        [
+            "ExternalInternet",
+            "Firewall",
+            "enp0s3",
+            "f1/0"
+        ]
+    ]
+}

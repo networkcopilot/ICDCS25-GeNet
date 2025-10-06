@@ -1,0 +1,130 @@
+{
+    "nodes": [
+        {
+            "label": "NAT",
+            "icon": ""
+        },
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC10",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "PC9",
+            "icon": ""
+        },
+        {
+            "label": "R1",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Switch2",
+            "PC1",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC2",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC3",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC4",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC5",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC6",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC10",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC9",
+            "",
+            ""
+        ],
+        [
+            "R1",
+            "NAT1",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "R1",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "Switch2",
+            "",
+            ""
+        ]
+    ]
+}
