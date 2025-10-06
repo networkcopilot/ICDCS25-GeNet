@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "WebServer",
+            "icon": ""
+        },
+        {
+            "label": "Stem",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        },
+        {
+            "label": "Tube",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Stem",
+            "Tube",
+            "0/0",
+            "0/0"
+        ],
+        [
+            "Switch3",
+            "PC4",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "PC5",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "PC6",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "Tube",
+            "e0",
+            "f1/1"
+        ],
+        [
+            "Switch2",
+            "Tube",
+            "e0",
+            "f1/0"
+        ],
+        [
+            "Stem",
+            "Switch1",
+            "f1/0",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC1",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC2",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC3",
+            "e3",
+            "e0"
+        ],
+        [
+            "WebServer",
+            "Switch2",
+            "e0",
+            "e2"
+        ]
+    ]
+}

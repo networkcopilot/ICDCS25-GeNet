@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "WebServer",
+            "icon": ""
+        },
+        {
+            "label": "Stem",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        },
+        {
+            "label": "Tube",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Stem",
+            "Tube",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC4",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC5",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC6",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "Tube",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "Tube",
+            "",
+            ""
+        ],
+        [
+            "Stem",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC1",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC2",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC3",
+            "",
+            ""
+        ],
+        [
+            "WebServer",
+            "Switch2",
+            "",
+            ""
+        ]
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "nodes": [
+        {
+            "label": "Ditto",
+            "icon": ""
+        },
+        {
+            "label": "Forge",
+            "icon": ""
+        },
+        {
+            "label": "IDS",
+            "icon": ""
+        },
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC10",
+            "icon": ""
+        },
+        {
+            "label": "PC11",
+            "icon": ""
+        },
+        {
+            "label": "PC12",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "PC7",
+            "icon": ""
+        },
+        {
+            "label": "PC8",
+            "icon": ""
+        },
+        {
+            "label": "PC9",
+            "icon": ""
+        },
+        {
+            "label": "Repo",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        },
+        {
+            "label": "Switch4",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Ditto",
+            "Repo",
+            "",
+            ""
+        ],
+        [
+            "Ditto",
+            "IDS",
+            "",
+            ""
+        ],
+        [
+            "Repo",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "Repo",
+            "Switch2",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC6",
+            "",
+            ""
+        ],
+        [
+            "PC4",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "PC5",
+            "Switch2",
+            "",
+            ""
+        ],
+        [
+            "PC2",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "PC1",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "PC3",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "Forge",
+            "Ditto",
+            "",
+            ""
+        ],
+        [
+            "Switch4",
+            "PC11",
+            "",
+            ""
+        ],
+        [
+            "Switch4",
+            "PC12",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC7",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC8",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC9",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC10",
+            "",
+            ""
+        ],
+        [
+            "Forge",
+            "Switch4",
+            "",
+            ""
+        ],
+        [
+            "Forge",
+            "Switch3",
+            "",
+            ""
+        ]
+    ]
+}

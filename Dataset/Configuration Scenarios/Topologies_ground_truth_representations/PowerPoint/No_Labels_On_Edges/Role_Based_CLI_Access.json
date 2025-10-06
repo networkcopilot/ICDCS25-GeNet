@@ -1,0 +1,110 @@
+{
+    "nodes": [
+        {
+            "label": "NAT1",
+            "icon": ""
+        },
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "Rollin",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Switch1",
+            "Rollin",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "Rollin",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "Rollin",
+            "",
+            ""
+        ],
+        [
+            "PC1",
+            "Switch1",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC2",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC3",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC4",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC5",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC6",
+            "",
+            ""
+        ],
+        [
+            "Rollin",
+            "NAT1",
+            "",
+            ""
+        ]
+    ]
+}

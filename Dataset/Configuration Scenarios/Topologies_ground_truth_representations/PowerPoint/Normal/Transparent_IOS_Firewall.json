@@ -1,0 +1,230 @@
+{
+    "nodes": [
+        {
+            "label": "Harbor",
+            "icon": ""
+        },
+        {
+            "label": "Haven",
+            "icon": ""
+        },
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC10",
+            "icon": ""
+        },
+        {
+            "label": "PC11",
+            "icon": ""
+        },
+        {
+            "label": "PC12",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "PC7",
+            "icon": ""
+        },
+        {
+            "label": "PC8",
+            "icon": ""
+        },
+        {
+            "label": "PC9",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        },
+        {
+            "label": "Switch4",
+            "icon": ""
+        },
+        {
+            "label": "Switch5",
+            "icon": ""
+        },
+        {
+            "label": "Switch6",
+            "icon": ""
+        },
+        {
+            "label": "Switch7",
+            "icon": ""
+        },
+        {
+            "label": "Switch8",
+            "icon": ""
+        },
+        {
+            "label": "Terminal",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Harbor",
+            "Haven",
+            "0/0",
+            "0/0"
+        ],
+        [
+            "Haven",
+            "Terminal",
+            "0/1",
+            "0/0"
+        ],
+        [
+            "Switch1",
+            "PC1",
+            "e0",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "PC2",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "PC3",
+            "e0",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "PC4",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "PC5",
+            "e0",
+            "e0"
+        ],
+        [
+            "Switch3",
+            "PC6",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch4",
+            "PC10",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch4",
+            "PC7",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch5",
+            "PC8",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch5",
+            "PC9",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch6",
+            "PC12",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch6",
+            "PC11",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch1",
+            "Switch7",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch2",
+            "Switch7",
+            "e2",
+            "e1"
+        ],
+        [
+            "Switch3",
+            "Switch7",
+            "e2",
+            "e2"
+        ],
+        [
+            "Switch7",
+            "Harbor",
+            "e3",
+            "f0/1"
+        ],
+        [
+            "Terminal",
+            "Switch8",
+            "f0/1",
+            "e0"
+        ],
+        [
+            "Switch8",
+            "Switch4",
+            "e1",
+            "e0"
+        ],
+        [
+            "Switch8",
+            "Switch5",
+            "e2",
+            "e0"
+        ],
+        [
+            "Switch8",
+            "Switch6",
+            "e3",
+            "e0"
+        ]
+    ]
+}

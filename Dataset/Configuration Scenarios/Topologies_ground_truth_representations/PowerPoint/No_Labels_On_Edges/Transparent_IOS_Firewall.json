@@ -1,0 +1,230 @@
+{
+    "nodes": [
+        {
+            "label": "Harbor",
+            "icon": ""
+        },
+        {
+            "label": "Haven",
+            "icon": ""
+        },
+        {
+            "label": "PC1",
+            "icon": ""
+        },
+        {
+            "label": "PC10",
+            "icon": ""
+        },
+        {
+            "label": "PC11",
+            "icon": ""
+        },
+        {
+            "label": "PC12",
+            "icon": ""
+        },
+        {
+            "label": "PC2",
+            "icon": ""
+        },
+        {
+            "label": "PC3",
+            "icon": ""
+        },
+        {
+            "label": "PC4",
+            "icon": ""
+        },
+        {
+            "label": "PC5",
+            "icon": ""
+        },
+        {
+            "label": "PC6",
+            "icon": ""
+        },
+        {
+            "label": "PC7",
+            "icon": ""
+        },
+        {
+            "label": "PC8",
+            "icon": ""
+        },
+        {
+            "label": "PC9",
+            "icon": ""
+        },
+        {
+            "label": "Switch1",
+            "icon": ""
+        },
+        {
+            "label": "Switch2",
+            "icon": ""
+        },
+        {
+            "label": "Switch3",
+            "icon": ""
+        },
+        {
+            "label": "Switch4",
+            "icon": ""
+        },
+        {
+            "label": "Switch5",
+            "icon": ""
+        },
+        {
+            "label": "Switch6",
+            "icon": ""
+        },
+        {
+            "label": "Switch7",
+            "icon": ""
+        },
+        {
+            "label": "Switch8",
+            "icon": ""
+        },
+        {
+            "label": "Terminal",
+            "icon": ""
+        }
+    ],
+    "links": [
+        [
+            "Harbor",
+            "Haven",
+            "",
+            ""
+        ],
+        [
+            "Haven",
+            "Terminal",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC1",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "PC2",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC3",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "PC4",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC5",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "PC6",
+            "",
+            ""
+        ],
+        [
+            "Switch4",
+            "PC10",
+            "",
+            ""
+        ],
+        [
+            "Switch4",
+            "PC7",
+            "",
+            ""
+        ],
+        [
+            "Switch5",
+            "PC8",
+            "",
+            ""
+        ],
+        [
+            "Switch5",
+            "PC9",
+            "",
+            ""
+        ],
+        [
+            "Switch6",
+            "PC12",
+            "",
+            ""
+        ],
+        [
+            "Switch6",
+            "PC11",
+            "",
+            ""
+        ],
+        [
+            "Switch1",
+            "Switch7",
+            "",
+            ""
+        ],
+        [
+            "Switch2",
+            "Switch7",
+            "",
+            ""
+        ],
+        [
+            "Switch3",
+            "Switch7",
+            "",
+            ""
+        ],
+        [
+            "Switch7",
+            "Harbor",
+            "",
+            ""
+        ],
+        [
+            "Terminal",
+            "Switch8",
+            "",
+            ""
+        ],
+        [
+            "Switch8",
+            "Switch4",
+            "",
+            ""
+        ],
+        [
+            "Switch8",
+            "Switch5",
+            "",
+            ""
+        ],
+        [
+            "Switch8",
+            "Switch6",
+            "",
+            ""
+        ]
+    ]
+}
